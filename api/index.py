@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 import json
+import mimetypes
 import os
 from datetime import datetime, timedelta, timezone
 from http.server import BaseHTTPRequestHandler
+from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
 from radar.cloud.scan_runner import run_cloud_scan, utc_now
@@ -41,6 +43,8 @@ class handler(BaseHTTPRequestHandler):
             route = query.pop("route", [""])[0].strip("/")
             if route:
                 path = f"/api/{route}"
+            if not path.startswith("/api/"):
+                return self._serve_dashboard(path)
 
             if path == "/api/cron/scan":
                 if method != "GET":
@@ -239,6 +243,24 @@ class handler(BaseHTTPRequestHandler):
         self.send_response(status)
         self._security_headers()
         self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        self.wfile.write(body)
+
+    def _serve_dashboard(self, request_path: str) -> None:
+        dist_dir = Path(__file__).resolve().parents[1] / "radar-dashboard" / "dist"
+        relative = request_path.lstrip("/")
+        candidate = (dist_dir / relative).resolve() if relative else dist_dir / "index.html"
+        if not str(candidate).startswith(str(dist_dir.resolve())) or not candidate.is_file():
+            candidate = dist_dir / "index.html"
+        if not candidate.is_file():
+            return self._json(404, {"error": "dashboard_not_built"})
+
+        content_type = mimetypes.guess_type(candidate.name)[0] or "application/octet-stream"
+        body = candidate.read_bytes()
+        self.send_response(200)
+        self._security_headers()
+        self.send_header("Content-Type", content_type)
         self.send_header("Content-Length", str(len(body)))
         self.end_headers()
         self.wfile.write(body)

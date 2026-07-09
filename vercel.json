@@ -6,7 +6,10 @@
   "functions": {
     "api/index.py": {
       "maxDuration": 300,
-      "includeFiles": "radar/**"
+      "includeFiles": [
+        "radar/**",
+        "radar-dashboard/dist/**"
+      ]
     }
   },
   "rewrites": [
