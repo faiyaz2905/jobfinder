@@ -1,5 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "cd radar-dashboard && npm install",
   "buildCommand": "cd radar-dashboard && npm run build",
   "outputDirectory": "radar-dashboard/dist",
   "functions": {
