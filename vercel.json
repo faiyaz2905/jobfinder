@@ -13,6 +13,10 @@
     {
       "source": "/api/:path*",
       "destination": "/api/index.py?route=:path*"
+    },
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
     }
   ],
   "headers": [
