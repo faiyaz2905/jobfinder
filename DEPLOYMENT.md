@@ -37,24 +37,28 @@ the exact production origin, without a trailing slash.
 Set `ALLOWED_USER_EMAILS` and `RADAR_EMAIL_TO` to the private recipient email
 addresses in Vercel only. Keep real addresses out of public example files.
 
-## 4. Choose Scheduling Plan
+## 4. Configure Free Scheduling
 
-The checked-in `vercel.json` contains three daily schedules:
+This repository is configured for Vercel Hobby/free hosting. The checked-in
+`vercel.json` intentionally does not contain Vercel cron jobs, because three
+daily Vercel Cron runs require a paid plan.
+
+Use a trusted external scheduler that supports custom HTTP headers, such as
+cron-job.org or EasyCron. Create three scheduled jobs:
 
 - 02:00 UTC / 08:00 Asia/Dhaka
 - 08:00 UTC / 14:00 Asia/Dhaka
 - 14:00 UTC / 20:00 Asia/Dhaka
 
-This configuration requires Vercel Pro. Vercel Hobby rejects schedules that
-run more than once per day. On Hobby, remove the `crons` array and configure a
-trusted external scheduler to call:
+Each scheduled job should call:
 
 ```text
 GET https://YOUR_PROJECT.vercel.app/api/cron/scan
 Authorization: Bearer YOUR_CRON_SECRET
 ```
 
-Never place the cron secret in the URL.
+Set the request method to `GET`. Add the `Authorization` value as an HTTP
+header, not as a URL parameter. Never place the cron secret in the URL.
 
 ## 5. Migrate Existing Local Data
 

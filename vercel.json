@@ -28,19 +28,5 @@
         }
       ]
     }
-  ],
-  "crons": [
-    {
-      "path": "/api/cron/scan",
-      "schedule": "0 2 * * *"
-    },
-    {
-      "path": "/api/cron/scan",
-      "schedule": "0 8 * * *"
-    },
-    {
-      "path": "/api/cron/scan",
-      "schedule": "0 14 * * *"
-    }
   ]
 }

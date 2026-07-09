@@ -63,7 +63,7 @@ The product needs:
 2. **Server API:** Vercel Functions that expose authenticated dashboard operations.
 3. **Scan worker:** A server-side Vercel Function that runs the existing Python scraper logic.
 4. **Database:** Supabase Postgres, replacing SQLite in production.
-5. **Scheduler:** Vercel Cron on Pro, or an approved external scheduler on Hobby.
+5. **Scheduler:** Approved external scheduler on Vercel Hobby/free hosting.
 6. **Notifications:** Gmail SMTP using a dedicated App Password stored in Vercel environment variables.
 7. **Authentication:** Single-user authentication protecting the dashboard and all non-cron API routes.
 
@@ -321,25 +321,13 @@ The required cadence is three scans per day. Target times are:
 
 Vercel cron expressions use UTC.
 
-### 11.1 Supported Scheduling Options
+### 11.1 Selected Scheduling Option
 
-**Preferred: Vercel Pro**
-
-Configure three schedules against `/api/cron/scan`:
-
-```json
-{
-  "crons": [
-    { "path": "/api/cron/scan", "schedule": "0 2 * * *" },
-    { "path": "/api/cron/scan", "schedule": "0 8 * * *" },
-    { "path": "/api/cron/scan", "schedule": "0 14 * * *" }
-  ]
-}
-```
-
-**Budget option: Vercel Hobby plus an external scheduler**
-
-Vercel Hobby permits a cron schedule only once per day. To retain three daily checks, use a reputable external scheduler to call the same HTTPS endpoint with the `Authorization: Bearer <CRON_SECRET>` header. The scheduler must support secret headers and TLS. The secret must not appear in the URL.
+The selected production path is Vercel Hobby plus an external scheduler. To
+retain three daily checks, use a reputable external scheduler to call the same
+HTTPS endpoint with the `Authorization: Bearer <CRON_SECRET>` header. The
+scheduler must support secret headers and TLS. The secret must not appear in
+the URL.
 
 The application must not claim that three daily Vercel Cron executions work on Hobby.
 
@@ -416,7 +404,7 @@ No GitHub Actions workflow is required. Deployment to Vercel can be performed th
 3. **Phase 3 - Server API:** Implement authenticated postings, contacts, companies, applied-status, health, and manual-scan endpoints.
 4. **Phase 4 - Production scan worker:** Adapt scrapers for Vercel timeouts and packaging; add the protected cron endpoint and idempotent notifications.
 5. **Phase 5 - Dashboard integration:** Connect the React dashboard to the API and complete authentication, loading, error, and mobile states.
-6. **Phase 6 - Scheduling:** Configure either Vercel Pro cron schedules or an approved external scheduler for three daily UTC invocations.
+6. **Phase 6 - Scheduling:** Configure an approved external scheduler for three daily UTC invocations.
 7. **Phase 7 - Security verification:** Test authorization, RLS, secret exposure, URL validation, rate limits, scan locks, and dependency vulnerabilities.
 8. **Phase 8 - Deployment and burn-in:** Deploy production, run a limited-source test, enable all companies gradually, and monitor for seven days.
 
@@ -439,7 +427,7 @@ The hosted release is complete only when:
 
 ## 17. Decisions Required Before Deployment
 
-- Choose Vercel Pro or an external scheduler for the required three daily runs.
+- Choose the external scheduler provider for the required three daily runs.
 - Choose and configure the single-user authentication provider.
 - Select the Supabase region and place Vercel Functions near it.
 - Decide whether production will use the Supabase Data API or the serverless transaction pooler.
