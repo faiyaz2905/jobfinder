@@ -1,0 +1,10 @@
+[project]
+name = "internship-radar"
+version = "0.1.0"
+description = "Personal CLI for tracking internship and entry-level postings."
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+radar = "radar.cli:main"
+

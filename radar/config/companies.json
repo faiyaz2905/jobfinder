@@ -1,0 +1,397 @@
+{
+  "companies": [
+    {
+      "name": "Bank Alfalah Limited",
+      "career_url": "https://www.bankalfalah.com/bd/career-opportunities/",
+      "category": "Foreign Commercial Banks",
+      "ats_type": "generic",
+      "notes": "BD career opportunities page"
+    },
+    {
+      "name": "Citibank, N.A.",
+      "career_url": "https://jobs.citi.com/",
+      "category": "Foreign Commercial Banks",
+      "ats_type": "generic",
+      "notes": "Global careers site (no separate BD portal)"
+    },
+    {
+      "name": "Commercial Bank of Ceylon PLC",
+      "career_url": "https://www.combank.net.bd/careers/",
+      "category": "Foreign Commercial Banks",
+      "ats_type": "generic",
+      "notes": "BD careers page"
+    },
+    {
+      "name": "Habib Bank Limited",
+      "career_url": "https://www.hbl.com/bangladesh/careers",
+      "category": "Foreign Commercial Banks",
+      "ats_type": "generic",
+      "notes": "BD careers page"
+    },
+    {
+      "name": "HSBC",
+      "career_url": "https://www.hsbc.com/careers",
+      "category": "Foreign Commercial Banks",
+      "ats_type": "generic",
+      "notes": "Global careers site"
+    },
+    {
+      "name": "National Bank of Pakistan",
+      "career_url": "https://www.nbp-bd.com/",
+      "category": "Foreign Commercial Banks",
+      "ats_type": "generic",
+      "notes": "BD general site (Career/Contact links)"
+    },
+    {
+      "name": "Standard Chartered Bank",
+      "career_url": "https://www.sc.com/en/careers/",
+      "category": "Foreign Commercial Banks",
+      "ats_type": "generic",
+      "notes": "Global careers site"
+    },
+    {
+      "name": "State Bank of India",
+      "career_url": "https://bd.statebank/career",
+      "category": "Foreign Commercial Banks",
+      "ats_type": "generic",
+      "notes": "BD career page"
+    },
+    {
+      "name": "Woori Bank",
+      "career_url": "https://www.wooribank.com/bd",
+      "category": "Foreign Commercial Banks",
+      "ats_type": "generic",
+      "notes": "BD general site"
+    },
+    {
+      "name": "Delta Brac Housing Finance Corporation (DBH)",
+      "career_url": "https://dbhfinance.com/careers",
+      "category": "Non-Bank Financial Institutions (NBFIs)",
+      "ats_type": "generic",
+      "notes": "Careers page"
+    },
+    {
+      "name": "IDLC Finance PLC",
+      "career_url": "https://idlc.com/applied-career",
+      "category": "Non-Bank Financial Institutions (NBFIs)",
+      "ats_type": "generic",
+      "notes": "Careers page"
+    },
+    {
+      "name": "IPDC Finance PLC",
+      "career_url": "https://ipdc.com/career/",
+      "category": "Non-Bank Financial Institutions (NBFIs)",
+      "ats_type": "generic",
+      "notes": "Careers page"
+    },
+    {
+      "name": "LankaBangla Finance PLC",
+      "career_url": "https://www.lankabangla.com/Career/",
+      "category": "Non-Bank Financial Institutions (NBFIs)",
+      "ats_type": "generic",
+      "notes": "Careers page"
+    },
+    {
+      "name": "United Finance",
+      "career_url": "https://www.unitedfinance.com.bd/Home/Careers",
+      "category": "Non-Bank Financial Institutions (NBFIs)",
+      "ats_type": "generic",
+      "notes": "Careers page"
+    },
+    {
+      "name": "Coca-Cola",
+      "career_url": "https://www.coca-colacompany.com/careers",
+      "category": "Fast-Moving Consumer Goods (FMCG) & Food",
+      "ats_type": "generic",
+      "notes": "Global careers site"
+    },
+    {
+      "name": "GlaxoSmithKline (GSK)",
+      "career_url": "https://jobs.gsk.com/",
+      "category": "Fast-Moving Consumer Goods (FMCG) & Food",
+      "ats_type": "generic",
+      "notes": "Global careers site"
+    },
+    {
+      "name": "Marico Bangladesh",
+      "career_url": "https://marico.com/bangladesh/careers/life-at-marico",
+      "category": "Fast-Moving Consumer Goods (FMCG) & Food",
+      "ats_type": "generic",
+      "notes": "BD careers page"
+    },
+    {
+      "name": "Nestle Bangladesh",
+      "career_url": "https://www.nestle.com.bd/jobs",
+      "category": "Fast-Moving Consumer Goods (FMCG) & Food",
+      "ats_type": "generic",
+      "notes": "BD careers page"
+    },
+    {
+      "name": "PepsiCo",
+      "career_url": "https://www.pepsicojobs.com/",
+      "category": "Fast-Moving Consumer Goods (FMCG) & Food",
+      "ats_type": "generic",
+      "notes": "Global careers site"
+    },
+    {
+      "name": "Procter & Gamble (P&G)",
+      "career_url": "https://www.pgcareers.com/",
+      "category": "Fast-Moving Consumer Goods (FMCG) & Food",
+      "ats_type": "generic",
+      "notes": "Global careers site"
+    },
+    {
+      "name": "Reckitt Benckiser (RB)",
+      "career_url": "https://careers.reckitt.com/",
+      "category": "Fast-Moving Consumer Goods (FMCG) & Food",
+      "ats_type": "generic",
+      "notes": "Global careers site"
+    },
+    {
+      "name": "Unilever Bangladesh",
+      "career_url": "https://www.unilever.com.bd/careers/",
+      "category": "Fast-Moving Consumer Goods (FMCG) & Food",
+      "ats_type": "generic",
+      "notes": "BD careers page"
+    },
+    {
+      "name": "British American Tobacco Bangladesh (BATBC)",
+      "career_url": "https://www.batbangladesh.com/careers",
+      "category": "Tobacco",
+      "ats_type": "generic",
+      "notes": "BD careers page"
+    },
+    {
+      "name": "Japan Tobacco International (JTI)",
+      "career_url": "https://jobs.jti.com/",
+      "category": "Tobacco",
+      "ats_type": "generic",
+      "notes": "Global careers portal (filter by Bangladesh)"
+    },
+    {
+      "name": "Ericsson",
+      "career_url": "https://www.ericsson.com/en/careers",
+      "category": "Telecommunications & Technology",
+      "ats_type": "generic",
+      "notes": "Global careers site"
+    },
+    {
+      "name": "Grameenphone (Telenor Group)",
+      "career_url": "https://www.grameenphone.com/about/career",
+      "category": "Telecommunications & Technology",
+      "ats_type": "generic",
+      "notes": "Careers page"
+    },
+    {
+      "name": "Huawei",
+      "career_url": "https://career.huawei.com/",
+      "category": "Telecommunications & Technology",
+      "ats_type": "generic",
+      "notes": "Global careers site"
+    },
+    {
+      "name": "IBM",
+      "career_url": "https://www.ibm.com/careers",
+      "category": "Telecommunications & Technology",
+      "ats_type": "generic",
+      "notes": "Global careers site"
+    },
+    {
+      "name": "Microsoft",
+      "career_url": "https://careers.microsoft.com/",
+      "category": "Telecommunications & Technology",
+      "ats_type": "generic",
+      "notes": "Global careers site"
+    },
+    {
+      "name": "Oracle",
+      "career_url": "https://www.oracle.com/careers/",
+      "category": "Telecommunications & Technology",
+      "ats_type": "generic",
+      "notes": "Global careers site"
+    },
+    {
+      "name": "Robi Axiata Limited",
+      "career_url": "https://www.robicareer.com/job-portal/jobs/all-jobs",
+      "category": "Telecommunications & Technology",
+      "ats_type": "generic",
+      "notes": "Careers portal"
+    },
+    {
+      "name": "Samsung Electronics",
+      "career_url": "https://www.samsung.com/global/careers/",
+      "category": "Telecommunications & Technology",
+      "ats_type": "generic",
+      "notes": "Global careers site"
+    },
+    {
+      "name": "BP",
+      "career_url": "https://www.bp.com/en/global/corporate/careers.html",
+      "category": "Energy, Oil & Gas",
+      "ats_type": "generic",
+      "notes": "Global careers site"
+    },
+    {
+      "name": "Chevron",
+      "career_url": "https://careers.chevron.com/",
+      "category": "Energy, Oil & Gas",
+      "ats_type": "generic",
+      "notes": "Global careers site"
+    },
+    {
+      "name": "ExxonMobil",
+      "career_url": "https://corporate.exxonmobil.com/careers",
+      "category": "Energy, Oil & Gas",
+      "ats_type": "generic",
+      "notes": "Global careers site"
+    },
+    {
+      "name": "Shell",
+      "career_url": "https://www.shell.com/careers.html",
+      "category": "Energy, Oil & Gas",
+      "ats_type": "generic",
+      "notes": "Global careers site"
+    },
+    {
+      "name": "Total",
+      "career_url": "https://totalenergies.com/careers",
+      "category": "Energy, Oil & Gas",
+      "ats_type": "generic",
+      "notes": "Global careers site (TotalEnergies)"
+    },
+    {
+      "name": "Bata Shoe Company",
+      "career_url": "https://www.batabd.com/",
+      "category": "Manufacturing, Construction & Building Materials",
+      "ats_type": "generic",
+      "notes": "BD general site (no dedicated career page found)"
+    },
+    {
+      "name": "Berger Paints",
+      "career_url": "https://www.bergerbd.com/career/",
+      "category": "Manufacturing, Construction & Building Materials",
+      "ats_type": "generic",
+      "notes": "BD careers page"
+    },
+    {
+      "name": "Heidelberg Cement",
+      "career_url": "https://heidelbergmaterialsbd.com/career",
+      "category": "Manufacturing, Construction & Building Materials",
+      "ats_type": "generic",
+      "notes": "BD careers page (now Heidelberg Materials)"
+    },
+    {
+      "name": "Hyundai Engineering & Construction",
+      "career_url": "https://www.hdec.kr/en/recruit/recruit01.aspx",
+      "category": "Manufacturing, Construction & Building Materials",
+      "ats_type": "generic",
+      "notes": "Global (Korea HQ) careers page"
+    },
+    {
+      "name": "LafargeHolcim Bangladesh",
+      "career_url": "https://www.lafargeholcim.com.bd/career",
+      "category": "Manufacturing, Construction & Building Materials",
+      "ats_type": "generic",
+      "notes": "BD careers page"
+    },
+    {
+      "name": "DHL",
+      "career_url": "https://careers.dhl.com/",
+      "category": "Logistics & Supply Chain",
+      "ats_type": "generic",
+      "notes": "Global careers site"
+    },
+    {
+      "name": "FedEx",
+      "career_url": "https://careers.fedex.com/",
+      "category": "Logistics & Supply Chain",
+      "ats_type": "generic",
+      "notes": "Global careers site"
+    },
+    {
+      "name": "Maersk",
+      "career_url": "https://www.maersk.com/careers",
+      "category": "Logistics & Supply Chain",
+      "ats_type": "generic",
+      "notes": "Global careers site"
+    },
+    {
+      "name": "UPS",
+      "career_url": "https://www.jobs-ups.com/",
+      "category": "Logistics & Supply Chain",
+      "ats_type": "generic",
+      "notes": "Global careers site"
+    },
+    {
+      "name": "Action Contre La Faim (Action Against Hunger)",
+      "career_url": "https://www.actionagainsthunger.org/careers/",
+      "category": "Foreign NGOs",
+      "ats_type": "generic",
+      "notes": "Global careers site"
+    },
+    {
+      "name": "ActionAid",
+      "career_url": "https://jobs.actionaidbd.org/",
+      "category": "Foreign NGOs",
+      "ats_type": "generic",
+      "notes": "ActionAid Bangladesh careers portal"
+    },
+    {
+      "name": "CARE International",
+      "career_url": "https://career.carebangladesh.org/",
+      "category": "Foreign NGOs",
+      "ats_type": "generic",
+      "notes": "CARE Bangladesh careers portal"
+    },
+    {
+      "name": "Islamic Relief Worldwide",
+      "career_url": "https://www.islamic-relief.org/careers/",
+      "category": "Foreign NGOs",
+      "ats_type": "generic",
+      "notes": "Global careers site"
+    },
+    {
+      "name": "Marie Stopes International",
+      "career_url": "https://mariestopes.org.bd/join-our-team/",
+      "category": "Foreign NGOs",
+      "ats_type": "generic",
+      "notes": "Marie Stopes Bangladesh careers page"
+    },
+    {
+      "name": "Oxfam International",
+      "career_url": "https://jobs.oxfam.org.uk/",
+      "category": "Foreign NGOs",
+      "ats_type": "generic",
+      "notes": "Global careers portal (covers Bangladesh roles)"
+    },
+    {
+      "name": "Plan International",
+      "career_url": "https://jobs.plan-international.org/",
+      "category": "Foreign NGOs",
+      "ats_type": "generic",
+      "notes": "Global careers portal (filter by Bangladesh)"
+    },
+    {
+      "name": "Save the Children",
+      "career_url": "https://www.savethechildren.net/bangladesh/bangladesh-jobs",
+      "category": "Foreign NGOs",
+      "ats_type": "generic",
+      "notes": "Bangladesh jobs page"
+    },
+    {
+      "name": "WaterAid",
+      "career_url": "https://www.wateraid.org/bd/jobs-opportunity",
+      "category": "Foreign NGOs",
+      "ats_type": "generic",
+      "notes": "Bangladesh jobs page"
+    },
+    {
+      "name": "World Vision",
+      "career_url": "https://www.wvi.org/bangladesh/career-opportunities",
+      "category": "Foreign NGOs",
+      "ats_type": "generic",
+      "notes": "Bangladesh careers page"
+    }
+  ]
+}
+
